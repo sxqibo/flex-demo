@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .out{
+            display: flex;
+            align-items: flex-start;
+        }
+        .out .inner{
+            width: 300px;
+            height: 300px;
+            background-color: #F00;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+            font-size: 100px;
+            text-align: center;
+        }
+        .out div:first-child{
+            height: 200px;
+        }
+        .out div:last-child{
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="inner">1</div>
+    <div class="inner" style="align-self:flex-end;">2</div>
+    <div class="inner">3</div>
+</div>
+</body>
+</html>
